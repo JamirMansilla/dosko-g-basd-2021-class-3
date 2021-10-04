@@ -1,0 +1,259 @@
+
+/*general styles*/
+
+* {
+    box-sizing: border-box;
+}
+body{ background-color: rgb(105, 100, 100);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*style for header*/
+
+header{
+    width: 100%;
+    background-color: rgb(2, 37, 48);
+    color: rgb(133, 128, 128);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: yellow thick solid;
+    border-radius: 15px;
+    text-transform: uppercase;
+    text-align:left;
+    font-style: italic;
+    font-size: 1em;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: greenyellow;
+    flex-wrap: nowrap;
+    padding-left: 2%;
+}
+.heading .logo{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: yellow thin solid;
+    border-radius: 15px;
+}
+/*style for nav & the flex burger*/
+
+nav{
+    background-color: grey;
+}
+.flex-burger {
+   display: flex;
+   background-color: transparent;
+   justify-content: center;
+}
+nav ul{
+    width: 100%;
+}
+nav li {
+    width: 100%;
+    background-color: slateblue;
+    border: red thin solid;
+    margin-top: 5px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;    
+}
+
+/* style of main article */
+.date{
+    box-sizing: border-box;
+    width: 25%;
+    color:yellow;
+    background-color: rgb(49, 92, 83);
+    margin-bottom: 0px;
+    padding-left: 1%;
+    margin-top: 0px;
+    border-radius: 15px;
+}
+h2{
+    text-transform: uppercase;
+    color: yellow;
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+article{    
+    width: 100%;
+    background-color: rgb(49, 92, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(231, 216, 216);
+    margin-top: 0%;
+    padding-top: 5%;
+    margin-bottom: 0%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+}
+.p1{
+    margin-top: 0px;
+    color: yellow;
+}
+.readmore{
+    color:grey;
+    
+}
+.readmore:hover{
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+}
+.flex-article {
+    display: flex;
+    align-content: center;
+}
+.main-images{
+    display: block;
+    max-width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption{  
+    background: rgb(70, 68, 68);
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    max-width: 100%;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 3px;
+    color: aliceblue; 
+    word-spacing: 0.01em;
+    letter-spacing: -0.35px;
+    margin-bottom: 5%;
+    margin-top: 0px;
+    border-radius: 15px;
+
+}
+
+/* style of section*/
+
+section{
+    margin-top: 0%;
+    padding-top: 5%;
+    margin-bottom: 0%;
+    padding-bottom: 5%;
+    background-color: rgb(74, 83, 109);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(231, 216, 216);
+    border-radius: 15px;
+    border-top: grey thin solid;
+   
+}
+h3{
+    text-transform: uppercase;
+    color: greenyellow;
+    font-size: 25px ;
+}
+
+/* style of aside*/
+
+aside{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: seagreen;
+    margin-top: 0%;
+    padding-top: 5%;
+    margin-bottom: 0%;
+    padding-bottom: 5%;
+    width: 100%;
+    font-size: 15pt;
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(231, 216, 216);
+    border-radius: 15px;
+    border-top: grey thin solid;
+}
+/* style of footer*/
+
+footer{
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0%;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    font-size: 15pt;
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(231, 216, 216);
+    background-color: slateblue;
+    border-top: grey thin solid;
+}
+footer ul{
+    list-style:none;
+    padding: 0%;
+    margin: auto;
+}
+footer li a{ 
+    box-sizing: border-box;
+    width: 100%;
+    text-decoration: none;
+    color:yellow;
+    text-transform: capitalize;
+}
+.pfooter{
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+/* general styles for images and figcaptions*/
+
+.images{
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.figcaptions{
+    text-decoration: none;
+    background: transparent;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    max-width: 100%;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 3px;
+    color: aliceblue; 
+    word-spacing: 0.01em;
+    letter-spacing: -0.35px;
+    margin-bottom: 5%;
+}
+.figcaptions a{
+    text-decoration: none;
+    color: yellow
+}
+.figcaptions:hover{
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: bold;
+}
+/* if the size of the screen is 420px or less, hide the nav menu */
+@media screen and (max-width: 420px) {
+    nav ul {
+      display: none;
+    }
+}

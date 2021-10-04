@@ -5,16 +5,20 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Jamir´s News</title>
-        <link rel="reset" href="reset.css">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="reset" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
-        <header>
-            <H1>JAMIR´S NEWS</H1>
+        <header class="heading">
+            <H1>jamir´s journal</H1>
+            <figure>
+                <img class="logo" src="./images/Logo.png" alt="logo jj">
+            </figure>
         </header>
-        <nav>
+        <nav class="flex-burger">
             <div>
-                <img class= "image1" src="./images/burgericon.png" alt="burger menu icon" width="35"> 
+                <img src="./images/burgericon.png" alt="burger menu icon" width="35">
+            </div> 
                 <ul>
                     <li><a href="#"></a>Home</li>
                     <li><a href="#"></a>Tech</li>
@@ -22,35 +26,91 @@
                     <li><a href="#"></a>House</li>
                     <li><a href="#"></a>Fishing</li>
                 </ul>
-            </div>
         </nav>      
         <main>
-            <div>
+            <p class="date">
+                October 4
+            </p>
             <article>
                 <h2 class="main-article">
-                    Main Article
+                   it´s your home safe?
                 </h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis suscipit harum necessitatibus consequatur quidem dolorem, voluptates pariatur voluptatum obcaecati error voluptatem fuga rerum, ratione deleniti mollitia est voluptas quod minima.
+                <div class="flex-article">
+                    <figure>
+                        <img class="main-images" src="./images/image1.jfif" alt="Una imagen de algo">
+                        <figcaption>
+                            <p>
+                                your house it's not exactly safe
+                            </p>
+                        </figcaption>
+                    </figure>
+                </div>
+                    <p class="p1">
+                        90 percent of the houses in Rosario don't have a security sistem cappable of avoid attempts of phishing..
+                        <a class= "readmore" href="#">read more.</a>
                     </p>
                 </article>
-            </div>
-            <div>
+            <div class="flex-article">
                 <section>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, exercitationem!
-                    </p>
+                    <h3>
+                            other news
+                    </h3>
+                    <figure>
+                        <img class= "images" src="./images/image2.jpg" alt="imagen random">
+                        <figcaption class="figcaptions">
+                            <p>
+                                <a href="#">big discounts in travels</a>
+                            </p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img class="images" src="./images/image3.jpg" alt="otra imagen">
+                        <figcaption class="figcaptions">
+                            <p>
+                                <a href="#">custom guitars on sale</a>
+                            </p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img class= "images" src="./images/image6.jfif" alt="ultima imagen">
+                        <figcaption class="figcaptions">
+                            <p>
+                                <a href="#">apocalipsis now?</a>
+                            </p>
+                        </figcaption>
+                    </figure>
                 </section>
             </div>
             <div>
                 <aside>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, necessitatibus.</p>
+                    <figure>
+                        <img class= "images" src="./images/image5.jpg" alt="del otro lado">
+                        <figcaption class="figcaptions">
+                            <p>
+                                <a href="#">spring blossoms</a>
+                            </p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img class= "images" src="./images/image4.jpg" alt="las q faltan">
+                        <figcaption class="figcaptions">
+                            <p>
+                                <a href="#">discounts in dog's food</a>
+                            </p>
+                        </figcaption>
+                    </figure>
                 </aside>
             </div>
         </main>
         <footer>
+            <ul>
+                <li><a href="#">technology</a></li>
+                <li><a href="#">misc</a></li>
+                <li><a href="#">phones</a></li>
+                <li><a href="#">random news</a></li>
+            </ul>
             <div>
-                <p>
+                <p class="pfooter">
                     Copyright &copysr; 2021 Jamir
                 </p>
             </div>
