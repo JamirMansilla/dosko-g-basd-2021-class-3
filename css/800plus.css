@@ -1,0 +1,39 @@
+@media only screen and (min-width: 800px) {
+/*style for heading*/
+
+.heading{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.date{
+    margin-bottom: 3px;
+}
+/*layout with flex*/
+.layout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+article{
+    flex: 0 1 80%;
+    order: 2;
+    padding: 20px;
+    border: black thin solid;
+}
+section{
+    flex: 0 1 10%;
+    order: 1;
+    padding: 0;
+    border: black thin solid;
+}
+aside{
+    flex: 0 1 10%;
+    order: 3;
+    padding: 0;
+    border: black thin solid;
+
+}
+}

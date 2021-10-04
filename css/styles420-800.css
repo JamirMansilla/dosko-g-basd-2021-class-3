@@ -5,12 +5,12 @@
     .heading{
         display: flex;
         flex-direction: row;
-        justify-content:center;
+        justify-content:space-around;
         align-items: center;
-        color: greenyellow;
         flex-wrap: nowrap;
         padding-left: 2%;
         font-size: 1.5em;
+        color: greenyellow;
     }
 
     /*style for nav & the flex burger*/
@@ -43,6 +43,7 @@
         flex-direction:row;
 
      }
+    /* style for date*/
 
     .date{
         width: 100%;
@@ -52,6 +53,8 @@
         margin: 20px 0;
         border: black thin solid;
     }
+    /*layout with flex*/
+
     .layout{
         display: flex;
         flex-direction: row;
@@ -70,10 +73,16 @@
         border: black thin solid;
     }
     footer{
+        background-color: transparent;
         display: flex;
         flex-direction: row;
         list-style: square;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: space-around;
+    }
+    footer li a:hover{
+        cursor:pointer;
+        color: green;
+        background-color: grey;
     }
 }
