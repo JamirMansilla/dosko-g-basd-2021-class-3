@@ -1,0 +1,79 @@
+@media only screen and (min-width: 420px) {
+    
+    /*style for heading*/
+
+    .heading{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        color: greenyellow;
+        flex-wrap: nowrap;
+        padding-left: 2%;
+        font-size: 1.5em;
+    }
+
+    /*style for nav & the flex burger*/
+  
+    .flex-burger .burger{
+        display: none;
+    }         
+    
+     nav li:hover{
+         cursor: pointer;
+         background-color: tomato;
+     }
+     nav li {
+         width: 100%;
+         background-color: rgb(49, 92, 83);
+         border: black thin solid;
+         margin-top: 5px;
+         margin-left: 0%;
+         padding: 10px;
+         text-align: center;
+         text-transform: uppercase; 
+         color: yellow; 
+         border-radius: 15px;
+         text-decoration: none;
+         list-style: none;
+         
+     }
+     nav{
+        display: flex;
+        flex-direction:row;
+
+     }
+
+    .date{
+        width: 100%;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+        border: black thin solid;
+    }
+    .layout{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    article{
+        flex: 0 1 100%;
+        border: black thin solid;
+    }
+    section{
+        width: 50%;
+        border: black thin solid;
+    }
+    aside{
+        width: 50%;
+        border: black thin solid;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        list-style: square;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

@@ -4,7 +4,8 @@
 * {
     box-sizing: border-box;
 }
-body{ background-color: rgb(105, 100, 100);
+body{ 
+    background-color: rgb(105, 100, 100);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -41,26 +42,11 @@ header{
 }
 /*style for nav & the flex burger*/
 
-nav{
-    background-color: grey;
-}
-.flex-burger {
-   display: flex;
-   background-color: transparent;
-   justify-content: center;
-}
-nav ul{
-    width: 100%;
-}
-nav li {
-    width: 100%;
-    background-color: slateblue;
-    border: red thin solid;
-    margin-top: 5px;
-    padding: 10px;
-    text-align: center;
-    text-transform: uppercase;    
-}
+.flex-burger{
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+ }
 
 /* style of main article */
 .date{
@@ -109,10 +95,6 @@ article{
     text-decoration: none;
     color: yellow;
     font-weight: bold;
-}
-.flex-article {
-    display: flex;
-    align-content: center;
 }
 .main-images{
     display: block;
@@ -198,17 +180,15 @@ footer{
     background-color: slateblue;
     border-top: grey thin solid;
 }
-footer ul{
-    list-style:none;
-    padding: 0%;
-    margin: auto;
-}
+
 footer li a{ 
     box-sizing: border-box;
+    list-style: none;
     width: 100%;
     text-decoration: none;
     color:yellow;
     text-transform: capitalize;
+    margin: auto;
 }
 .pfooter{
     font-size: 8px;
@@ -253,7 +233,7 @@ footer li a{
 }
 /* if the size of the screen is 420px or less, hide the nav menu */
 @media screen and (max-width: 420px) {
-    nav ul {
+    nav li {
       display: none;
     }
 }
