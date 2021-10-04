@@ -46,6 +46,7 @@ header{
     display: flex;
     background-color: transparent;
     justify-content: center;
+    align-items: center;
  }
 
 /* style of main article */
@@ -180,15 +181,15 @@ footer{
     background-color: slateblue;
     border-top: grey thin solid;
 }
+footer menu{
+    list-style: none;
+
+}
 
 footer li a{ 
-    box-sizing: border-box;
-    list-style: none;
-    width: 100%;
     text-decoration: none;
     color:yellow;
     text-transform: capitalize;
-    margin: auto;
 }
 .pfooter{
     font-size: 8px;
