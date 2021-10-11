@@ -1,0 +1,90 @@
+body{
+    position: static;
+    display: block;
+    background-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    font-size: 1em;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header h1{
+    font-family:'Times New Roman', 'serif';
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 2em;
+}
+.dailyTime{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color:#fff;
+    font-family: arial, helvetica;
+    border-top: gray thin solid;
+    border-bottom: gray thin solid;
+}
+.date{
+    margin: 10px 0px;
+    font-size: 10px;
+}
+.temperature{
+    margin: 10px 0px;
+    font-size: 10px;
+}
+.navBar{
+    background-color: grey;
+}
+main{
+    padding: 20px;
+    background-color: #fff;
+}
+article{
+    background-color: #fff;
+    
+}
+article .imageHeat{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.newsLinks{
+    background-color: #fff;
+    height: 50px;
+    padding: 20px;
+    border-top: lightgray thin solid;
+}
+footer{
+    background-color: black;
+    height:50vh;
+    color: blanchedalmond;
+    display: none;
+}
+/* all the hidden elements below 720px*/
+
+@media screen and (max-width: 720px) {
+.headerBurger ul{
+    display: none;
+}
+.navBar{
+    display: none;
+}
+#hiddenNew{
+    display: none;
+}
+.asideBar{
+    display: none;
+}
+}
