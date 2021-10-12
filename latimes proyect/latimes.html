@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css_stylesheets/reset.css">
     <link rel="stylesheet" href="./css_stylesheets/styles720.css">
+    <link rel="stylesheet" href="./css_stylesheets/styles720to1199.css">
     <title>News from California, the nation and world - Los Angeles Times</title>
 </head>
 <body>
     <header>
         <div class="headerBurger">
             <div>
-                <img src="./ImagesLaTimes/burger.png" alt="burgerIcon">
+                <img id= "daBurger" src="./ImagesLaTimes/burger.png" alt="burgerIcon">
+                <img id= "sectionBurger" src="./ImagesLaTimes/simpleBurger.png" alt="burger section">
             </div>
             <ul>
                 <li><a href="#">any</a></li>
@@ -27,13 +29,13 @@
             </ul>
         </div>
         <div>
-            <img src="./ImagesLaTimes/logo.png" alt="logoLATimes">
+            <img class="logoLAT" src="./ImagesLaTimes/logo.png" alt="logoLATimes">
         </div>
         <div>
-            <img src="./ImagesLaTimes/logIn.png" alt="logIn">
+            <img class= "loginIcon" src="./ImagesLaTimes/logIn.png" alt="logIn">
         </div>
         <div>
-            <img src="./ImagesLaTimes/searchIcon.png" alt="searchIcon">
+            <img class= "searchIcon" src="./ImagesLaTimes/searchIcon.png" alt="searchIcon">
         </div>
     </header>
     <div class="dailyTime">
@@ -42,39 +44,49 @@
     </div>
     <div class="navBar"> 
         <ul>
-            <li><a href="">some news</a></li>
-            <li><a href="">some news</a></li>
-            <li><a href="">some news</a></li>
-            <li><a href="">some news</a></li>
-            <li><a href="">some news</a></li>
-            <li><a href="">some news</a></li>
+            <li><a href="#">covid-19</a></li>
+            <li><a href="#">tracking virus</a></li>
+            <li><a href="#">lausd cases</a></li>
+            <li><a href="#">oil spill</a></li>
+            <li><a href="#">academy museum</a></li>
+            <li><a href="#">dodgers</a></li>
         </ul>
     </div>
     <main>
         <article>
-           <img class="imageHeat" src="./ImagesLaTimes/heatImg.jpg" alt="a men suffering the heat"> 
+            <div>
+                <img class="imageHeat1" src="./ImagesLaTimes/heatImg 400x200.jpg" alt="a men suffering the heatsmall">
+            </div>
+            <div>
+                <img class= "imageHeat2" src="./ImagesLaTimes/heatImg 800x600.jpg" alt="a men suffering the heatmedium">
+            </div>
+            <div> 
+                <img class="imageHeat3" src="./ImagesLaTimes/heatImg.jpg" alt="a men suffering the heatfull">
+            </div>
             <div class="mainArticle">
                 <h1>
-                        Heat waves are far deadlier than we think.
+                    Heat waves are far deadlier than we think.
                 </h1>
-                <h2>
+                <h2 class="h2">
                     How california neglects this climate threat
                 </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab expedita perferendis praesentium molestiae quis dolore similique labore accusamus nemo at. Magnam illum at, minima tempora dicta sed officiis nisi ratione voluptas distinctio animi, vitae facere error aspernatur obcaecati! Optio repellat illum maiores autem nemo possimus, nesciunt delectus quod nulla laudantium.
+                <p class="paragrph">
+                    California chronically indercounts the death toll from extreme heat, which disproportionately harms the poor, the elderly and other who are vulnerable.
                 </p>
             </div>
         </article>
-       <div>
-            <div class="newsLinks">
-                <a href="#">new1</a>
-            </div>
-            <div class="newsLinks">
-                <a href="#">new2</a>
-            </div>
-            <div id= "hiddenNew" class="newsLinks">
-                <a href="#">new3</a>
-            </div>
+       <div class="bottomBar">
+           <ul>
+                <li>
+                    <a href="#">Climate change is supercharging California heat waves, and the state isn't ready</a>
+                </li>
+                <li>
+                    <a href="#">As heat waves intensify, acces to air conditioning can mean life or death</a>
+                </li>
+                <li id= "hiddenNew">
+                    <a href="#">How to protect yourself and your loved ones from extreme hot</a>
+                </li>
+            </ul>
        </div>
        <div class="asideBar">
             <ul>

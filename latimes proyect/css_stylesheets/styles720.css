@@ -1,7 +1,7 @@
 body{
     position: static;
     display: block;
-    background-color: blanchedalmond;
+    background-color: #fff;
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
 
@@ -12,17 +12,36 @@ header{
     top: 0;
     background-color: #fff;
     font-size: 1em;
+    padding: 0px 20px;
 }
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: nowrap;
+    border-bottom: gray thin solid;
 }
 header h1{
     font-family:'Times New Roman', 'serif';
     font-weight: bold;
     text-transform: capitalize;
     font-size: 2em;
+   
+}
+.logoLAT{
+    display: block;
+    width:auto;
+    height: auto;
+}
+.loginIcon{
+    display: block;
+    width:auto;
+    height: auto;
+}
+.searchIcon{
+    display: block;
+    width:auto;
+    height: auto;
 }
 .dailyTime{
     display: flex;
@@ -53,18 +72,50 @@ article{
     background-color: #fff;
     
 }
-article .imageHeat{
+article .imageHeat1{
     display: block;
-    width: 100%;
+    min-width: 100%;
     height: auto;
 }
+.mainArticle h1{
+    font-size: 25px;
+    font-weight: 900;
+    color: #000;
+    text-align: left;
+    line-height: 1.5; 
+    }
 
+.mainArticle .h2{
+    font-size: 25px;
+    font-weight: 900;
+    color: #000;
+    text-align: left;
+   margin-bottom: 10px; 
+}
+.mainArticle{
+    font-size: 15px;
+    color: lightslategrey;
+    text-align: justify;
+    margin-bottom: 20px;
+}
 
-.newsLinks{
+.bottomBar li{
     background-color: #fff;
     height: 50px;
     padding: 20px;
     border-top: lightgray thin solid;
+   
+}
+.bottomBar a{
+    color: #000;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bottomBar{
+    display:flex;
+  
 }
 footer{
     background-color: black;
@@ -74,17 +125,26 @@ footer{
 }
 /* all the hidden elements below 720px*/
 
-@media screen and (max-width: 720px) {
-.headerBurger ul{
-    display: none;
-}
-.navBar{
-    display: none;
-}
-#hiddenNew{
-    display: none;
-}
-.asideBar{
-    display: none;
-}
+@media screen and (max-width: 719px) {
+    #sectionBurger{
+        display: none;
+    }
+        .headerBurger ul{
+        display: none;
+    }
+    .navBar{
+        display: none;
+    }
+    article .imageHeat2 {
+        display: none;
+    }
+    article .imageHeat3{
+        display: none;
+    }
+    #hiddenNew{
+        display: none;
+    }
+    .asideBar{
+        display: none;
+    }
 }
